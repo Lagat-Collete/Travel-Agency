@@ -1,10 +1,42 @@
 body{
-  margin: 0;
+  margin-left: 5%;
   padding: 0;
+  width: 80%;
+  background-color: cyan;
 }
-.diani{
-  background-image: url('./images/Diani-Beach.jpg');
+nav{
+  background-color: cyan;
+}
+nav p{
+  text-align: center;
+  font-size: 20px;
+  color: blue;
+  font-weight: 700;
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+nav>ul>li{
+  display: inline;
+  padding: 5px;
+  text-decoration: none;
+  position: relative;
+
+}
+ul>li>a{
+  text-decoration: none;
+  color: maroon;
 }
 h1{
   color: red;
+  text-align: center;
+}
+img{
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  float: left;
+}
+.tropical{
+  display: flex;
+  justify-content: space-evenly;
+  float: left;
 }
