@@ -1,0 +1,10 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.diani{
+  background-image: url('./images/Diani-Beach.jpg');
+}
+h1{
+  color: red;
+}
